@@ -1,6 +1,8 @@
+import java.util.*;
 class Prime{
 public static void main(String args[]){
-int p=5;
+  Scanner sc=new Scanner(System.in);
+int p=sc.nextInt();
 int c=0;
 for(int i=1;i<=p;i++){
 if(p%i==0){
